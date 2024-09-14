@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+background-color: aqua;
+width: 300px;
+
+
+padding: 2rem;
+
+}
+h1{
+    padding: 2rem;
+}
+.inputs input{
+    width: 80%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.add-input{
+/* background-color: rgb(35, 35, 198); */
+width: fit-content;
+margin-left: 10px;
+}
+.add-input input{
+    width: fit-content;
+    padding:10px 1rem;
+    margin:  0 10px;
+    
+}
+.add-input button{
+    background-color: blue;
+    color: white;
+    border: none;
+text-align: center;
+width: 70px;
+height: 40px;
+
+}
+.delete{
+    margin-top:2rem;
+    margin-left: 80px;
+}
+
+input{
+    width: 100%;
+
+}
+input::placeholder{
+  font-size: 11px;
+}
+.delete{
+    font-size:20px;
+    height: 30px;
+    width: 140px;
+}
+i{
+   padding-right: 5px;
+   cursor: pointer;
+}
+
